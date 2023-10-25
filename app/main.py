@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from routes import aluno
-import pyodbc
 import uvicorn
 from db.database import Base, engine
 
