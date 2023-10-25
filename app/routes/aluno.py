@@ -1,8 +1,8 @@
-from app.schemas import Aluno, AlunoId
+from schemas import Aluno, AlunoId
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
-from app.db.database import get_db
-from app.db import models
+from db.database import get_db
+from db import models
 from pydantic import BaseModel
 
 

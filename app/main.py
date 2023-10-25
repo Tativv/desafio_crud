@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from app.routes import aluno
+from routes import aluno
 import pyodbc
 import uvicorn
-from app.db.database import Base, engine
+from db.database import Base, engine
 
 def create_tables():
     Base.metadata.create_all(bind=engine)
