@@ -1,17 +1,4 @@
-annotated-types
-anyio
-click
-colorama
-exceptiongroup
 fastapi
-greenlet
-h11
-idna
 pydantic
-pydantic_core
-pyodbc
-sniffio
 SQLAlchemy
-starlette
-typing_extensions
 uvicorn
