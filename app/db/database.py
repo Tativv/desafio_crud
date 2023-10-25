@@ -3,12 +3,13 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 
-db_server = 'dpg-cksln51f3gac73cehq9g-a'
-db_name = 'desafio_3ecy'
-db_user = 'desafio_3ecy_user'
-db_password = 'VdueQ9CojBDOEyVN4HBsLO5KrhpBahGC'
+db_server = 'localhost'
+db_name = 'desafio'
+db_user = 'postgres'
+db_password = '123'
 
-connection_string = f"postgres://desafio_3ecy_user:VdueQ9CojBDOEyVN4HBsLO5KrhpBahGC@dpg-cksln51f3gac73cehq9g-a/desafio_3ecy"
+
+connection_string = f"sqlite:///desafio.db"
 engine = create_engine(connection_string, echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
