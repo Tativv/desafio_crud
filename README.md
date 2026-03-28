@@ -22,4 +22,4 @@ Praticar a construção de operações CRUD e reforçar conceitos de backend.
 ### ▶️ Como executar
 
 ```bash
-python nome_do_arquivo.py
+python app/main.py
